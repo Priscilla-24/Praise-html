@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Praise's Birthday Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #e5efff, #d3c2ff);
+      color: #00074a;
+      text-align: center;
+    }
+
+    .container {
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #0030a1;
+      margin-bottom: 30px;
+    }
+
+    .gallery-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .gallery-section img, .gallery-section video {
+      width: 280px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    a.button {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 10px 20px;
+      background-color: #7d5cff;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+    a.button:hover {
+      background-color: #584ad9;
+    }
+  </style>
+</head>
+<body>
+     <!-- Background Music -->
+  <audio autoplay loop>
+    <source src="your-song.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  
+  <div class="container">
+    <h1>Gallery of Sweet Moments</h1>
+
+    <div class="gallery-section">
+      <!-- Replace these with real image URLs or local file paths -->
+      <video src="./assets/Img/Ini 3.mp4" controls></video>
+      <video src="./assets/Img/IMG_2830.MOV" controls></video>
+    </div>
+
+    <a class="button" href="index.html">Back to Wishes</a>
+  </div>
+</body>
+</html>
